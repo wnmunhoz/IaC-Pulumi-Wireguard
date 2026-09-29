@@ -1,0 +1,5 @@
+name: activeline-wireguard
+description: Provisiona servidor Debian via SSH + sudo (Docker em /data/docker + WireGuard em container)
+runtime:
+  name: dotnet
+main: src/ActiveLine.WireGuard.Host/

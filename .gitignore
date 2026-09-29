@@ -1,0 +1,8 @@
+bin/
+obj/
+.vs/
+.idea/
+*.user
+# Stack real pode conter host/usuário do ambiente; o exemplo fica versionado.
+Pulumi.*.yaml
+!Pulumi.*.yaml.example
