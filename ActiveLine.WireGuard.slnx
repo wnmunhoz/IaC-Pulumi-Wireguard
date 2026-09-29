@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ActiveLine.WireGuard.Domain/ActiveLine.WireGuard.Domain.csproj" />
+    <Project Path="src/ActiveLine.WireGuard.Host/ActiveLine.WireGuard.Host.csproj" />
+    <Project Path="src/ActiveLine.WireGuard.Infrastructure/ActiveLine.WireGuard.Infrastructure.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,18 @@
+# Copie para Pulumi.dev.yaml (ou use os comandos "pulumi config set" do README).
+config:
+  server:name: vpn
+  server:host: 192.168.0.10
+  server:port: "22"
+  server:user: debian
+  server:privateKeyPath: ~/.ssh/id_ed25519
+  # Se o sudo pedir senha (sem NOPASSWD), configure como secret:
+  #   pulumi config set --secret server:sudoPassword
+  provisioning:basePath: /data
+  wireguard:serverUrl: vpn.exemplo.com.br
+  wireguard:port: "51820"
+  wireguard:peers: notebook,celular
+  wireguard:peerDns: auto
+  wireguard:internalSubnet: 10.13.13.0
+  wireguard:allowedIps: 0.0.0.0/0, ::/0
+  wireguard:timezone: America/Sao_Paulo
+  wireguard:image: lscr.io/linuxserver/wireguard:latest
